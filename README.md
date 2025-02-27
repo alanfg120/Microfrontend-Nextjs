@@ -6,8 +6,12 @@ Para ejecutar el microfrontend, sigue estos pasos:
     ```bash
     cd mf1
     ```
+2. Instala las dependencias:
+     ```bash
+     npm install
+     ```
 
-2. Inicia la aplicación:
+3. Inicia la aplicación:
     ```bash
     npm run dev
     ```
@@ -21,7 +25,12 @@ Para ejecutar el host, sigue estos pasos:
     cd host
     ```
 
-2. Inicia la aplicación:
+2. Instala las dependencias:
+     ```bash
+     npm install
+     ```
+
+3. Inicia la aplicación:
     ```bash
     npm run dev
     ```
