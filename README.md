@@ -49,6 +49,8 @@ los microfronted en Next js se realiza mediante el plugin oficial de Module Fede
 
 # Observaciones 
 
+- se Manejo Zustand como manejador de estado el storage esta en mf1 en la ruta  `src/store/user.store.js` se utiliza tanto en el componete table como en la pagina principal (esto para mostrar compartir estado entre componentes)
+
 - Solo se puede implementar el plugin en js no es compatible Typescript
 - solo para renderizado de paginas con "pages" no soporta app routing (Server Components)
 - el HotReload en ocaciones falla al actualizar el Microfrontend no se visualiza el cambio inmediato en el host
