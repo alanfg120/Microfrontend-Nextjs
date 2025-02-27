@@ -1,0 +1,20 @@
+{
+  "name": "hostnext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "rm -rf .next;NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.24"
+  },
+  "devDependencies": {
+    "@module-federation/nextjs-mf": "8.7.8",
+    "webpack": "5.96.1"
+  }
+}
